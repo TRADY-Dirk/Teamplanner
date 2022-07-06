@@ -1,6 +1,6 @@
 # Teamplanner
 
-Übung zum Start in Python. Mit dem Somersemester 2020 habe ich mich das erste Mal an Python gesetzt.
+Übung zum Start in Python. Mit dem Somersemester 2022 habe ich mich das erste Mal an Python gesetzt.
 Nach einigen Umwegen über Tkinter habe ich das Projekt erst in PyQt5 und nun auf PyQt6.3 angelegt.
 
 ### Logging
@@ -32,11 +32,15 @@ Momentan kann das Programm geöffnet und genutzt werden, (noch) vordefinierte Ei
 Besonders mit dem Layout von Qt habe ich noch meine Probleme, da ich vorher auch nie mit Qt gearbeitet habe.
 
 Skills zum Semesterstart:
+
 Python: 3 %
+
 Qt: 2%
 
 Skills zur Abgabe:
+
 Python: 65 %
+
 Qt: 15 % 
 
 Das Projekt wird in den kommenden Wochen spaßeshalber vervollständigt.
