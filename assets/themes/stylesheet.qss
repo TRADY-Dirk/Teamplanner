@@ -1,0 +1,61 @@
+QMainWindow {
+    background-color: #ffffff;
+    border: 1px solid #161219;
+}
+
+QTextEdit {
+    -background-color: #363239;
+    font-size: 16px;
+    -color: #ffffff;
+}
+
+QLabel {
+    font-family: "Circular Std Bold";
+    font-size:14px;
+    -color:#ffffff;
+    -padding-left:20px;
+    margin: 0;
+    padding: 0;
+}
+
+QLabel#inactive {
+    color: #8c99aa;
+}
+
+QPushButton[is_icon],
+QLabel#icon {
+    font-family: "Font Awesome 6 Pro Light";
+    font-size: 24px;
+    color: #8c99aa;
+    background-color: transparent;
+    height: 42px;
+    width: 42px;
+}
+
+QPushButton[is_active="true"] {
+    font-family: "Font Awesome 6 Pro Solid";
+}
+
+QPushButton[is_active="true"][section_action="true"] {
+    color: #f7931e;
+}
+
+QPushButton[is_active="true"][section_communication="true"] {
+    color: #29abe2;
+}
+
+QPushButton[is_active="true"][section_knowledge="true"] {
+    color: #39b54a;
+}
+
+QPushButton[is_avatar="true"] {
+    font-size: 16px;
+    border: 1px solid #8c99aa;
+    border-radius: 21px;
+    max-height: 42px;
+    max-width: 42px;
+}
+
+QToolBar {
+    border: none;
+}
